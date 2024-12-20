@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar {
+    padding: 10px 20px;
+  }
+  
+  .navbar-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 45px;
+  }
+  
+  .logo {
+    font-size: 20px;
+    font-weight: bold;
+    color: #b38bfc;
+  }
+  
+  .search-bar {
+    display: flex;
+    flex: 1;
+    margin: 0 20px;
+  }
+  
+  .catalog-btn {
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+  }
+  
+  .search-bar input {
+    flex: 1;
+    padding: 8px;
+    border: none;
+    margin: 0 5px;
+  }
+  
+  .search-btn {
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+    color: #a7a0a0;
+  }
+  
+  .menu {
+    margin-top: 10px;
+    margin-left: 45px;
+    display: flex;
+    overflow-x: auto;
+    padding: 5px 0;
+    gap: 15px;
+  }
+  
